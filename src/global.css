@@ -1,0 +1,51 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow: hidden;
+}
+/* .navbar{
+    position: absolute;
+} */
+.canvas{
+    cursor:crosshair;
+    border: 1px solid black;
+    overflow: auto;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+    }
+}   
+/* styles.css */
+
+/* Hide the default cursor */
+.canvas-container {
+    position: relative; /* Make it easy to position the custom cursor */
+  }
+  
+  /* Style for the custom dot cursor */
+.custom-dot {
+    position: absolute;
+    width: 3px; 
+    height: 3px;
+    background-color: black; 
+     border-radius: 50%; 
+
+}
+
+.arrow{
+    display: none;
+}
+
+.eraser{
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    background-color: white; 
+    border: solid;
+    border-width: 1px;
+}

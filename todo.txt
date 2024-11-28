@@ -1,0 +1,25 @@
+
+0.#done Feature: recognize as one figure 
+           (lasso or highlight square which leads to everything inside it to become one unit and they can be moved around by selecting) 
+
+1.#done Feature: animate movement of shapes drawn
+
+2.#done Feature: group curves by selecting 
+            added: create group 
+            added: animate group 
+       *****need to add: outline all curves once one curve of group is selected***** 
+3.#done Feature: Eraser (objects and paths)
+
+4. Feature: undo/redo 
+
+Bugs/Bug related active protection 
+
+0. add: error handling throughout
+
+1. add: error messages to show on screen to end user(warnings etc)
+
+2. fix: selecting the same element makes the outline bolder
+
+3. fix: duplicates added to group array if same element is selected again (group should be a set) 
+
+
